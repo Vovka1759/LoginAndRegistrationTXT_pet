@@ -26,7 +26,7 @@ int main()
                 std::string name;
                 std::cout << "Set your account Name: ";
                 std::cin >> name;
-                name = name + ".txt";
+                name = "accs/" + name + ".txt";
 
                 std::ifstream test_file(name);
                 std::string test_data;
