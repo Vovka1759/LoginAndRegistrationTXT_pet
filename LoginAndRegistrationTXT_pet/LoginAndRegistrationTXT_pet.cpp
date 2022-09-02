@@ -15,11 +15,41 @@ int main()
     switch (choice) {
 
         case(1):
+            while (true)
+            {
+                std::string name;
+                std::cout << "Write your account Name: ";
+                std::cin >> name;
+                name = "accs/" + name + ".txt";
 
+                std::ifstream myfile(name);
+                std::string data;
+                myfile >> data;
+                if (data != "") {
+                    while (true)
+                    {
+                        std::cout << "Write your account Password: ";
+                        std::string password;
+                        std::cin >> password;
+                        if (data == password) {
+                      
+                            std::cout << "Your successfully logged in your account!";
 
+                            break;
+                        }
+                        else {
+                            std::cout << "This account Password is incorrect!\n";  
+                        }
+                        
+                    }
+                    break;
+                }
+                else {
+                    std::cout << "This account Name is not used!\n";  
+                }
+            }
 
             break;
-
         case(2):
             while (true)
             {
