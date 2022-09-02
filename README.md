@@ -1,4 +1,4 @@
-# LoginAndRegistrationTXT_pet
+![LoginAndRegistrationTXT_pet](http://url/to/img.png)
 
 This is a little Pet Project.
 
