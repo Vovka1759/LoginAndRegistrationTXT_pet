@@ -1,4 +1,4 @@
-![LoginAndRegistrationTXT_pet](http://url/to/img.png)
+![LoginAndRegistrationTXT_pet](https://github.com/Vovka1759/LoginAndRegistrationTXT_pet/blob/master/image.png)
 
 This is a little Pet Project.
 
